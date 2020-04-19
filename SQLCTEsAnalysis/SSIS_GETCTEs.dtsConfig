@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2020 (http://www.altova.com) by Huijun Wang (Memorial Sloan-Kettering Cancer Center) -->
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="MSKCC\WangA" GeneratedFromPackageName="SSIS_GETCTEs_Test" GeneratedFromPackageID="{DC1FF1E4-1097-4EE3-BDAF-93BB81F7CF1C}" GeneratedDate="11/25/2019 9:56:38 AM"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[CONN_OLEDB_DVDDB01].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=DVDDB01;User ID=wanga;Provider=IBMOLEDB.DB2DSDV11;Persist Security Info=True;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[CONN_OLEDB_DVDDB01].Properties[Password]" ValueType="String">
+		<ConfiguredValue>mskccvb112</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[CONN_OLEDB_DVDDB01].Properties[ServerName]" ValueType="String">
+		<ConfiguredValue>DVDDB01</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[CONN_OLEDB_DVDDB01].Properties[UserName]" ValueType="String">
+		<ConfiguredValue>wanga</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>

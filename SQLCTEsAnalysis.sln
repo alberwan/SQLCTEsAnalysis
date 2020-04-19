@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SQLCTEsAnalysis", "SQLCTEsAnalysis\SQLCTEsAnalysis.dtproj", "{014BD520-437F-42D3-A00E-A24E41573F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{014BD520-437F-42D3-A00E-A24E41573F84}.Development|Default.ActiveCfg = Development
+		{014BD520-437F-42D3-A00E-A24E41573F84}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0C17CAF-F2D4-46A1-A647-72A865C90AC5}
+	EndGlobalSection
+EndGlobal
