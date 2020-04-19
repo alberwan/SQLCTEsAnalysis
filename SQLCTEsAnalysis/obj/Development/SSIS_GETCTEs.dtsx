@@ -13,8 +13,8 @@
   DTS:ObjectName="SSIS_GETCTEs"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="240"
-  DTS:VersionGUID="{C6F57F3F-6D87-4DEB-812D-DE7C19C8978A}"
+  DTS:VersionBuild="241"
+  DTS:VersionGUID="{767971C4-E31F-403B-B541-3DD012E9C684}"
   DTS:VersionMinor="1">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
@@ -17053,23 +17053,23 @@ AAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="288,42"
+          Size="288,41.6"
           Id="Package\EST_QUERY_FACT_SQL_RAW_CTE_UPDATE"
           TopLeft="472.387761818424,429.546224511617" />
         <NodeLayout
-          Size="340,42"
+          Size="340,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_OUTPUT\DFT_DSGTOOLS_QUERY_STAGING_CTE_SQL_OUTPUT"
           TopLeft="24.9428642297279,142.647064145131" />
         <NodeLayout
-          Size="262,42"
+          Size="262.4,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_OUTPUT\EST_LOAD_QUERY_CTE_SQL_OUTPUT"
           TopLeft="49.0571448642381,214.835299211885" />
         <NodeLayout
-          Size="330,42"
+          Size="329.6,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_OUTPUT\EST_Trunacte_DSGTools_QUERY_CTE_SQL_OUTPUT"
           TopLeft="5.5,5.50000000000007" />
         <NodeLayout
-          Size="338,42"
+          Size="337.6,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_OUTPUT\EST_TRUNCATE_QUERY_STAGING_CTE_SQL_OUTPUT"
           TopLeft="17.6285729004413,71.5411806210515" />
         <EdgeLayout
@@ -17143,24 +17143,24 @@ AAAAAAAAAAA=]]></arrayElement>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="383,321"
-          Size="383,364"
+          PanelSize="383.2,320.8"
+          Size="383.2,364"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_OUTPUT"
           TopLeft="431.371885413331,33.5071894140258" />
         <NodeLayout
-          Size="322,42"
+          Size="321.6,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_RAW\DFT_DSGTOOLS_QUERY_STAGING_CTE_SQL_RAW"
           TopLeft="16.9571426503513,135.394118043873" />
         <NodeLayout
-          Size="246,42"
+          Size="246.4,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_RAW\EST_LOAD_QUERY_CTE_SQL_RAW"
           TopLeft="40.6000022990364,223.317652614224" />
         <NodeLayout
-          Size="312,42"
+          Size="312,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_RAW\EST_Trunacte_DSGTools_QUERY_CTE_SQL_RAW"
           TopLeft="5.5,5.50000000000007" />
         <NodeLayout
-          Size="321,42"
+          Size="320.8,41.6"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_RAW\EST_TRUNCATE_QUERY_STAGING_CTE_SQL_RAW"
           TopLeft="14.1714304203891,62.2000032817618" />
         <EdgeLayout
@@ -17222,8 +17222,8 @@ AAAAAAAAAAA=]]></arrayElement>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="389,320"
-          Size="389,363"
+          PanelSize="388.8,320"
+          Size="388.8,363.2"
           Id="Package\SQC_DSGTools_QUERY_CTE_SQL_RAW"
           TopLeft="0.126976789259942,33.3071889764568" />
         <EdgeLayout
@@ -17250,18 +17250,18 @@ AAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="619.679823615878,397.507189414026">
+          TopLeft="619.679823615877,397.507189414026">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,32.0390350975916"
+              EndConnector="0,32.0390350975912"
               Start="0,0"
-              End="0,24.5390350975916">
+              End="0,24.5390350975912">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.5390350975916" />
+                    End="0,24.5390350975912" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17270,6 +17270,13 @@ AAAAAAAAAAA=]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <AnnotationLayout
+          Text="Added to Github on 04/19/2020"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="199.2,60"
+          Id="4d112364-29b9-4cf5-b049-910f6751eaa6"
+          TopLeft="175.714288706682,443.058829588874" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
